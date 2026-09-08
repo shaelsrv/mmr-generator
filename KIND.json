@@ -1,0 +1,12 @@
+{
+ "kind": "generator",
+ "engine": "https://github.com/shaelsrv/ModelMeetsReality",
+ "engine_commit": "56a33c1",
+ "tier": "designed",
+ "one_line": "produces candidates rather than judgements",
+ "premise_shape": "OPEN QUESTION -- see KINDS.md.",
+ "falsifier": "OPEN. A generator that only produces plausible output is unfalsifiable. Candidate discipline: it must state what it will NOT generate, and be wrong when that appears.",
+ "predict_frame": "Generate candidates AND state the class of thing this model claims it will not produce. That negative claim is the only falsifiable part.",
+ "assess_frame": "Did something appear that this model said it would not generate?",
+ "warning": "This kind has no proven discipline. Building one is research, not scaffolding."
+}
